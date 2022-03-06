@@ -1,10 +1,14 @@
 import React from "react";
-import products from "./components/products";
+import Products from "./components/Products";
+import Carous from './components/Carous';
+import './App.css'
+
 
 function App() {
   return (
     <div className="App">
-      <products></products>
+      <Carous></Carous>
+      <Products></Products>
     </div>
   );
 }
